@@ -1,0 +1,100 @@
+// Core
+.btn {
+  font-weight: bold;
+}
+
+// Checkboxes to look like buttons
+// -------------------------
+.checkbox {
+  &.btn {
+    padding-left: 35px;
+  }
+}
+
+// TABS
+// ----
+
+// Actual tabs (as links)
+.nav-tabs > li > a {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  .border-radius(8px 8px 0 0);
+  #gradient > .vertical(@btnBackground, #f4f4f4);
+}
+
+.nav > li > a:hover {
+  text-decoration: none;
+  background-color: @grayLighter;
+  background-image: none;
+}
+
+// Active state, and it's :hover to override normal :hover
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover {
+  background-color: @bodyBackground;
+}
+
+
+
+// STACKED NAV
+// -----------
+
+.nav-stacked {
+  .border-radius(8px);
+}
+
+// Tabs
+.nav-tabs.nav-stacked > li:first-child > a {
+  .border-top-radius(8px);
+}
+.nav-tabs.nav-stacked > li:last-child > a {
+  .border-bottom-radius(8px);
+}
+
+
+// RESPONSIVE OVERRIDES
+// -----------
+
+.navbar-fixed-top,
+.navbar-fixed-bottom,
+.navbar-static-top {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+@media (max-width: 767px) {
+
+  // Padding to set content in a bit
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .input-prepend input {
+    width: 30px;
+  }
+}
+
+@media (max-width: @navbarCollapseWidth) {
+
+  .navbar-fixed-top {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+// TYPOGRAPGY OVERRIDES
+// -----------
+
+h3 { line-height: @baseLineHeight * 1.5; }
+
+h3#tip-header {
+  margin-top: 0px;
+}
+
+legend {
+  line-height: 32px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}

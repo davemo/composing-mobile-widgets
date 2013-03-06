@@ -1,6 +1,6 @@
-# Hello World | Email List
+# Composing Mobile Widgets | Hello World Meetup
 
-This is a simple app demonstrating the power of using composition to build mobile widgets using Backbone and Bootstrap
+This is a simple app demonstrating the power of using composition to build mobile widgets using Backbone and Bootstrap. This was built for the [hello world meetup](http://www.meetup.com/Hello-World-Saskatoon-Developer-Speaker-Series/events/105561332/) in Saskatoon, SK on March 6th, 2013
 
 ![Collapsable TableView](http://cl.ly/image/0e3g1l2h172t/Screen%20Shot%202013-03-05%20at%2011.56.22%20PM.png)
 

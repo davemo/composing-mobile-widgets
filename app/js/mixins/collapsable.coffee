@@ -1,6 +1,6 @@
-def 'hello.mixins.collapsable', (model) ->
+def 'hello.mixins.collapsable', (view) ->
 
-  hello.mixins.mix model, with:
+  hello.mixins.mix view, with:
     toggleCollapse: (element) ->
       element ?= @
       element.find(".collapsable .body").toggle()

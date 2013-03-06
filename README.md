@@ -4,7 +4,7 @@ This is a simple app demonstrating the power of using composition to build mobil
 
 ![Collapsable TableView](http://cl.ly/image/0e3g1l2h172t/Screen%20Shot%202013-03-05%20at%2011.56.22%20PM.png)
 
-![Sliding DrawerView](http://cl.ly/image/2F3I3V3W011X/Screen%20Shot%202013-03-05%20at%2011.57.02%20PM.png)
+![Sliding DrawerView](http://cl.ly/image/3A2p1F1g3u1F/Screen%20Shot%202013-03-06%20at%2012.00.47%20AM.png)
 
 ## Prerequisites:
 

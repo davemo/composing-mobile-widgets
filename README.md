@@ -13,7 +13,7 @@ This is a simple app demonstrating the power of using composition to build mobil
 
 ## Installing Dependencies
 
-    cd frontend-legacy-talk
+    cd composing-mobile-widgets
     npm install
     npm install -g lineman
 
